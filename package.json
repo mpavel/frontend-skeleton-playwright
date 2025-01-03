@@ -7,7 +7,11 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test:features": "npx cucumber-js --config cucumber/cucumber-config.json"
+  },
+  "imports": {
+    "#cucumber": "./src/cucumber/index.mjs"
   },
   "dependencies": {
     "react": "^18.3.1",

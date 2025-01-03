@@ -1,0 +1,23 @@
+{
+  "default": {
+    "paths": [
+      "src/**/*.feature"
+    ],
+    "import": [
+      "src/**/*.@(js|cjs|mjs)"
+    ],
+    "tags": "@test",
+    "format": [
+      [
+        "html",
+        "cucumber/report.html"
+      ]
+    ],
+    "formatOptions": {
+      "html": {
+        "externalAttachments": true
+      }
+    },
+    "failFast": false
+  }
+}
