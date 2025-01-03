@@ -1,3 +1,11 @@
+# Frontend Skeleton App
+
+This repository serves as an example on how you can use Vite to set up a React/TS project and include Playwright with Cucumber.
+
+In `package.json` you will find two commands:
+- test:features - which will execute the steps for all scenarios tagged with `@test`
+- test:features:focus - which is meant for development, finding the scenario tagged with `@focus` and restarting the test when changes are done to the step implementations
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
