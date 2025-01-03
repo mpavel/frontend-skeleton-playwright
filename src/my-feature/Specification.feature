@@ -1,6 +1,6 @@
 Feature: My Feature
 
-  @test
+  @test @focus
   Scenario: Count on Homepage
     Given I have the homepage open
     When I start counting

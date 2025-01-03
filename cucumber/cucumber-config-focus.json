@@ -1,0 +1,21 @@
+{
+  "default": {
+    "paths": [
+      "src/**/*.feature"
+    ],
+    "import": [
+      "src/**/*.@(js|cjs|mjs)"
+    ],
+    "tags": "@focus",
+    "worldParameters": {
+      "isFocusing": true
+    },
+    "format": [
+      [
+        "html",
+        "cucumber/report.html"
+      ]
+    ],
+    "failFast": false
+  }
+}
